@@ -112,3 +112,93 @@ This project is part of my continuous learning journey.
 <p>
 📌 More projects coming soon...
 </p>
+<h1 align="center">📊 Power BI Data Visualization Project</h1>
+
+<p align="center">
+  <b>End-to-End Interactive Dashboard built using Microsoft Power BI</b><br>
+  Showcasing multiple business-ready visualizations and analytical insights
+</p>
+
+<hr>
+
+<h2>📌 Project Overview</h2>
+<p>
+This project demonstrates my hands-on experience with <b>Microsoft Power BI</b>.
+I designed and developed an interactive dashboard using various advanced visuals
+to analyze data effectively and present insights in a clear, decision-oriented manner.
+</p>
+
+<hr>
+
+<h2>🛠 Tools & Technologies Used</h2>
+<ul>
+  <li>Microsoft Power BI</li>
+  <li>Data Modeling & Relationships</li>
+  <li>DAX Measures & Calculated Columns</li>
+  <li>Interactive Visual Analytics</li>
+</ul>
+
+<hr>
+
+<h2>📈 Visualizations Implemented</h2>
+<ul>
+  <li>🗺️ Normal Map</li>
+  <li>🗺️ Filled Map</li>
+  <li>📉 Line Chart</li>
+  <li>🎀 Ribbon Chart</li>
+  <li>🔻 Funnel Chart</li>
+  <li>🥧 Pie Chart</li>
+  <li>🍩 Donut Chart</li>
+  <li>📋 Table</li>
+  <li>🧮 Matrix</li>
+  <li>🎛️ Slicers</li>
+  <li>🔢 Number Cards (KPIs)</li>
+  <li>📊 Stacked Bar Chart</li>
+  <li>📊 Stacked Column Chart</li>
+  <li>📊 Clustered Bar Chart</li>
+  <li>📊 Clustered Column Chart</li>
+</ul>
+
+<hr>
+
+<h2>🎯 Key Features</h2>
+<ul>
+  <li>Interactive filtering using slicers</li>
+  <li>Clear KPI representation using number cards</li>
+  <li>Geographical insights through maps</li>
+  <li>Trend and comparison analysis using line, bar, and column charts</li>
+  <li>User-friendly layout and professional dashboard design</li>
+</ul>
+
+<hr>
+
+<h2>📂 Project Structure</h2>
+<ul>
+  <li><b>PowerBI_File.pbix</b> – Main Power BI dashboard file</li>
+  <li><b>Dataset</b> – Source data used for analysis</li>
+  <li><b>README.md</b> – Project documentation</li>
+</ul>
+
+<hr>
+
+<h2>🚀 Learning Outcomes</h2>
+<ul>
+  <li>Strong understanding of Power BI visuals</li>
+  <li>Hands-on experience with dashboard design</li>
+  <li>Improved data storytelling and visualization skills</li>
+  <li>Practical exposure to business analytics</li>
+</ul>
+
+<hr>
+
+<h2>📌 Conclusion</h2>
+<p>
+This project reflects my growing expertise as a <b>Data Analyst</b> and my ability
+to transform raw data into meaningful insights using Power BI.
+</p>
+
+<hr>
+
+<p align="center">
+  ⭐ If you find this project useful, feel free to star this repository!
+</p>
