@@ -196,44 +196,358 @@ to analyze data effectively and present insights in a clear, decision-oriented m
 This project reflects my growing expertise as a <b>Data Analyst</b> and my ability
 to transform raw data into meaningful insights using Power BI.
 </p>
+# 📊 Power BI Visualizations – Step-by-Step Guide
+
+This document explains **each Power BI visual** you listed in a **simple, interview‑ready and project‑ready way**, followed by a **professional HTML README code** you can directly use in **GitHub**.
+
+---
+
+## 🗺️ 1. Map (Normal Map)
+
+**Purpose:** Displays data using geographical locations.
+
+### Step-by-Step:
+
+1. Drag **Map** visual into the canvas
+2. Put **Country / State / City** in *Location*
+3. Put numeric value (Sales, Count) in *Size*
+4. Optional: Legend for category split
+
+**Use Case:** Sales by city, customers by region
+
+---
+
+## 🗺️ 2. Filled Map
+
+**Purpose:** Colors entire regions based on values.
+
+### Step-by-Step:
+
+1. Select **Filled Map**
+2. Add geographic field to *Location*
+3. Add measure to *Values*
+4. Colors change based on data intensity
+
+**Use Case:** Profit by state, population by country
+
+---
+
+## 📉 3. Line Chart
+
+**Purpose:** Shows trend over time.
+
+### Step-by-Step:
+
+1. Drag **Line Chart**
+2. Put Date in *X-Axis*
+3. Put measure in *Y-Axis*
+4. Add legend for comparison
+
+**Use Case:** Monthly sales growth
+
+---
+
+## 🎀 4. Ribbon Chart
+
+**Purpose:** Shows rank changes over time.
+
+### Step-by-Step:
+
+1. Add **Ribbon Chart**
+2. Time field → *Axis*
+3. Category → *Legend*
+4. Measure → *Values*
+
+**Use Case:** Market share comparison
+
+---
+
+## 🔻 5. Funnel Chart
+
+**Purpose:** Shows stage-wise drop-off.
+
+### Step-by-Step:
+
+1. Drag **Funnel Chart**
+2. Stage → *Category*
+3. Measure → *Values*
+
+**Use Case:** Sales pipeline stages
+
+---
+
+## 🥧 6. Pie Chart
+
+**Purpose:** Shows proportion of total.
+
+### Step-by-Step:
+
+1. Add **Pie Chart**
+2. Category → *Legend*
+3. Measure → *Values*
+
+**Use Case:** Sales share by product
+
+---
+
+## 🍩 7. Donut Chart
+
+**Purpose:** Same as pie with center space.
+
+### Step-by-Step:
+
+1. Choose **Donut Chart**
+2. Category → *Legend*
+3. Measure → *Values*
+
+**Use Case:** KPI distribution
+
+---
+
+## 📋 8. Table
+
+**Purpose:** Shows raw detailed data.
+
+### Step-by-Step:
+
+1. Drag **Table**
+2. Add required columns
+3. Format headers and totals
+
+**Use Case:** Transaction-level data
+
+---
+
+## 🧮 9. Matrix
+
+**Purpose:** Advanced table with hierarchy.
+
+### Step-by-Step:
+
+1. Add **Matrix**
+2. Rows → Category
+3. Columns → Sub-category / Date
+4. Values → Measures
+
+**Use Case:** Sales by year & region
+
+---
+
+## 🎛️ 10. Slicers
+
+**Purpose:** Filters report interactively.
+
+### Step-by-Step:
+
+1. Drag **Slicer**
+2. Add field to filter
+3. Choose dropdown / list style
+
+**Use Case:** Filter by year, region
+
+---
+
+## 🔢 11. Number Cards (KPI)
+
+**Purpose:** Shows single important value.
+
+### Step-by-Step:
+
+1. Add **Card** visual
+2. Put KPI measure
+3. Format font & label
+
+**Use Case:** Total Sales, Profit
+
+---
+
+## 📊 12. Stacked Bar Chart
+
+**Purpose:** Compare totals + categories.
+
+### Step-by-Step:
+
+1. Axis → Category
+2. Values → Measure
+3. Legend → Sub-category
+
+**Use Case:** Sales by region & product
+
+---
+
+## 📊 13. Stacked Column Chart
+
+**Purpose:** Vertical stacked comparison.
+
+### Step-by-Step:
+
+1. X-Axis → Category
+2. Y-Axis → Measure
+3. Legend → Category split
+
+---
+
+## 📊 14. Clustered Bar Chart
+
+**Purpose:** Side-by-side comparison.
+
+### Step-by-Step:
+
+1. Axis → Category
+2. Values → Measure
+3. Legend → Comparison field
+
+---
+
+## 📊 15. Clustered Column Chart
+
+**Purpose:** Vertical clustered comparison.
+
+### Step-by-Step:
+
+1. X-Axis → Category
+2. Y-Axis → Measure
+3. Legend → Category
+
+---
+
+# 🌐 Professional GitHub README (HTML)
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Power BI Visualizations Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power BI Data Visualization Project</title>
 </head>
 <body>
-<h1>📊 Power BI Visualizations Project</h1>
-<p>This project demonstrates various Power BI visuals with real-world use cases.</p>
 
+  <h1>📊 Power BI Data Visualization Project</h1>
+  <p>
+    This repository showcases my hands-on experience with <b>Power BI</b> by implementing
+    multiple business-focused visualizations. Each visual is explained clearly with its
+    purpose and real-world use case.
+  </p>
 
-<h2>📌 Visuals Covered</h2>
-<ul>
-<li>🗺️ Map & Filled Map</li>
-<li>📉 Line Chart</li>
-<li>🎀 Ribbon Chart</li>
-<li>🔻 Funnel Chart</li>
-<li>🥧 Pie & 🍩 Donut Charts</li>
-<li>📋 Table & 🧮 Matrix</li>
-<li>🎛️ Slicers</li>
-<li>🔢 KPI Cards</li>
-<li>📊 Stacked & Clustered Charts</li>
-</ul>
+  <hr>
 
+  <h2>🗺️ Map (Normal Map)</h2>
+  <p>
+    Displays data points based on geographical locations using bubbles.
+    The size of each bubble represents the value.
+  </p>
+  <b>Use Case:</b> Sales or customer distribution by city or country.
 
-<h2>🛠 Tools Used</h2>
-<ul>
-<li>Power BI Desktop</li>
-<li>DAX</li>
-<li>Excel / CSV Dataset</li>
-</ul>
+  <h2>🗺️ Filled Map</h2>
+  <p>
+    Highlights entire regions using color intensity based on data values.
+  </p>
+  <b>Use Case:</b> Profit or performance comparison across states or countries.
 
+  <h2>📉 Line Chart</h2>
+  <p>
+    Shows trends and patterns over a continuous period of time.
+  </p>
+  <b>Use Case:</b> Monthly sales growth, revenue trend analysis.
 
-<h2>🎯 Objective</h2>
-<p>To analyze business data using interactive and professional dashboards.</p>
+  <h2>🎀 Ribbon Chart</h2>
+  <p>
+    Visualizes ranking changes among categories over time.
+  </p>
+  <b>Use Case:</b> Market share or product ranking comparison.
 
+  <h2>🔻 Funnel Chart</h2>
+  <p>
+    Represents data across sequential stages with gradual reduction.
+  </p>
+  <b>Use Case:</b> Sales pipeline, lead conversion process.
 
-<h2>🚀 Author</h2>
-<p><b>A Raj Kumar</b><br>Data Analyst | Power BI Developer</p>
+  <h2>🥧 Pie Chart</h2>
+  <p>
+    Displays proportional distribution of categories as slices of a whole.
+  </p>
+  <b>Use Case:</b> Product-wise sales contribution.
+
+  <h2>🍩 Donut Chart</h2>
+  <p>
+    Similar to a pie chart but with a hollow center for better readability.
+  </p>
+  <b>Use Case:</b> KPI distribution and category contribution.
+
+  <h2>📋 Table</h2>
+  <p>
+    Displays detailed row-level data in tabular format.
+  </p>
+  <b>Use Case:</b> Transaction-level or customer-level analysis.
+
+  <h2>🧮 Matrix</h2>
+  <p>
+    Advanced table with hierarchical rows and columns.
+  </p>
+  <b>Use Case:</b> Sales by Year, Region, and Product Category.
+
+  <h2>🎛️ Slicers</h2>
+  <p>
+    Interactive filtering tool that allows users to control report views.
+  </p>
+  <b>Use Case:</b> Filter dashboard by date, region, or category.
+
+  <h2>🔢 Number Cards (KPIs)</h2>
+  <p>
+    Displays a single, important business metric clearly.
+  </p>
+  <b>Use Case:</b> Total Sales, Total Profit, Growth Percentage.
+
+  <h2>📊 Stacked Bar Chart</h2>
+  <p>
+    Compares total values while showing category-wise contribution.
+  </p>
+  <b>Use Case:</b> Region-wise sales split by product.
+
+  <h2>📊 Stacked Column Chart</h2>
+  <p>
+    Vertical version of stacked bar chart for time-based comparison.
+  </p>
+  <b>Use Case:</b> Monthly sales with product categories.
+
+  <h2>📊 Clustered Bar Chart</h2>
+  <p>
+    Displays side-by-side comparison between categories.
+  </p>
+  <b>Use Case:</b> Actual vs Target sales comparison.
+
+  <h2>📊 Clustered Column Chart</h2>
+  <p>
+    Vertical clustered comparison across multiple categories.
+  </p>
+  <b>Use Case:</b> Product performance comparison by year.
+
+  <hr>
+
+  <h2>🛠 Tools & Technologies</h2>
+  <ul>
+    <li>Power BI Desktop</li>
+    <li>DAX (Data Analysis Expressions)</li>
+    <li>Excel / CSV Data Sources</li>
+  </ul>
+
+  <h2>🎯 Project Objective</h2>
+  <p>
+    To build interactive dashboards that transform raw data into meaningful
+    business insights using Power BI.
+  </p>
+
+  <h2>👤 Author</h2>
+  <p>
+    <b>A Raj Kumar</b><br>
+    Aspiring Data Analyst | Power BI Developer
+  </p>
+
 </body>
 </html>
+```
+
+---
+
+✅ Copy this HTML code and paste it into your GitHub <b>README.md</b> to present your project professionally.
