@@ -196,50 +196,44 @@ to analyze data effectively and present insights in a clear, decision-oriented m
 This project reflects my growing expertise as a <b>Data Analyst</b> and my ability
 to transform raw data into meaningful insights using Power BI.
 </p>
-# 📊 Power BI Visualizations – Step-by-Step Guide
-
-This document explains **each Power BI visual** you listed in a **simple, interview-ready and project-ready way**, followed by a **professional HTML README code** you can directly use in **GitHub**.
-
----
-
-## 🗺️ 1. Map (Normal Map)
-
-**Purpose:** Displays data using geographical locations.
-
-### Step-by-Step:
-
-1. Drag **Map** visual into the canvas
-2. Put **Country / State / City** in *Location*
-3. Put numeric value (Sales, Count) in *Size*
-4. Optional: Legend for category split
-
-**Use Case:** Sales by city, customers by region
-
----
-
-## 🗺️ 2. Filled Map
-
-**Purpose:** Colors entire regions based on values.
-
-### Step-by-Step:
-
-1. Select **Filled Map**
-2. Add geographic field to *Location*
-3. Add measure to *Values*
-4. Colors change based on data intensity
-
-**Use Case:** Profit by state, population by country
-
----
-
-## 📉 3. Line Chart
-
-**Purpose:** Shows trend over ti
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Power BI Visualizations Project</title>
+</head>
+<body>
+<h1>📊 Power BI Visualizations Project</h1>
+<p>This project demonstrates various Power BI visuals with real-world use cases.</p>
 
 
+<h2>📌 Visuals Covered</h2>
+<ul>
+<li>🗺️ Map & Filled Map</li>
+<li>📉 Line Chart</li>
+<li>🎀 Ribbon Chart</li>
+<li>🔻 Funnel Chart</li>
+<li>🥧 Pie & 🍩 Donut Charts</li>
+<li>📋 Table & 🧮 Matrix</li>
+<li>🎛️ Slicers</li>
+<li>🔢 KPI Cards</li>
+<li>📊 Stacked & Clustered Charts</li>
+</ul>
 
-<hr>
 
-<p align="center">
-  ⭐ If you find this project useful, feel free to star this repository!
-</p>
+<h2>🛠 Tools Used</h2>
+<ul>
+<li>Power BI Desktop</li>
+<li>DAX</li>
+<li>Excel / CSV Dataset</li>
+</ul>
+
+
+<h2>🎯 Objective</h2>
+<p>To analyze business data using interactive and professional dashboards.</p>
+
+
+<h2>🚀 Author</h2>
+<p><b>A Raj Kumar</b><br>Data Analyst | Power BI Developer</p>
+</body>
+</html>
