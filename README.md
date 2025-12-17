@@ -196,6 +196,47 @@ to analyze data effectively and present insights in a clear, decision-oriented m
 This project reflects my growing expertise as a <b>Data Analyst</b> and my ability
 to transform raw data into meaningful insights using Power BI.
 </p>
+# 📊 Power BI Visualizations – Step-by-Step Guide
+
+This document explains **each Power BI visual** you listed in a **simple, interview-ready and project-ready way**, followed by a **professional HTML README code** you can directly use in **GitHub**.
+
+---
+
+## 🗺️ 1. Map (Normal Map)
+
+**Purpose:** Displays data using geographical locations.
+
+### Step-by-Step:
+
+1. Drag **Map** visual into the canvas
+2. Put **Country / State / City** in *Location*
+3. Put numeric value (Sales, Count) in *Size*
+4. Optional: Legend for category split
+
+**Use Case:** Sales by city, customers by region
+
+---
+
+## 🗺️ 2. Filled Map
+
+**Purpose:** Colors entire regions based on values.
+
+### Step-by-Step:
+
+1. Select **Filled Map**
+2. Add geographic field to *Location*
+3. Add measure to *Values*
+4. Colors change based on data intensity
+
+**Use Case:** Profit by state, population by country
+
+---
+
+## 📉 3. Line Chart
+
+**Purpose:** Shows trend over ti
+
+
 
 <hr>
 
