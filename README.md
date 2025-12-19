@@ -721,5 +721,80 @@ PowerBI-Learning-Notes/
     </style>
 </head>
 <body>
+<h2>📊 Power BI: Model View & DAX</h2>
 
-```
+<hr>
+
+<h3>🧩 Model View in Power BI</h3>
+
+<p>
+The <strong>Model View</strong> in Power BI is used to design and manage relationships between different tables.
+It plays a crucial role in building an efficient data model, which directly impacts report performance and accuracy.
+</p>
+
+<h4>🔹 Key Features of Model View</h4>
+<ul>
+  <li><strong>Table Relationships:</strong> Create and manage relationships between fact and dimension tables.</li>
+  <li><strong>Cardinality:</strong> Define relationship types such as One-to-One, One-to-Many, and Many-to-Many.</li>
+  <li><strong>Cross Filter Direction:</strong> Control how filters flow between related tables.</li>
+  <li><strong>Star Schema Design:</strong> Helps structure data for better performance and readability.</li>
+  <li><strong>Data Integrity:</strong> Ensures correct aggregation and avoids duplicate values.</li>
+</ul>
+
+<p>
+A well-designed model improves <strong>query performance</strong>, simplifies DAX calculations, and ensures
+accurate insights across all visuals.
+</p>
+
+<hr>
+
+<h3>📐 DAX (Data Analysis Expressions)</h3>
+
+<p>
+<strong>DAX</strong> is a powerful formula language used in Power BI to create calculated columns,
+measures, and tables. It allows users to perform advanced calculations and data analysis.
+</p>
+
+<h4>🔹 Where DAX Is Used</h4>
+<ul>
+  <li><strong>Measures:</strong> Dynamic calculations that change based on filters and slicers.</li>
+  <li><strong>Calculated Columns:</strong> Row-level calculations stored in the table.</li>
+  <li><strong>Calculated Tables:</strong> Create new tables using DAX formulas.</li>
+</ul>
+
+<h4>🔹 Common DAX Functions</h4>
+<ul>
+  <li><strong>SUM()</strong> – Adds values in a column</li>
+  <li><strong>AVERAGE()</strong> – Calculates average value</li>
+  <li><strong>COUNT()</strong> – Counts rows or values</li>
+  <li><strong>CALCULATE()</strong> – Modifies filter context</li>
+  <li><strong>FILTER()</strong> – Applies conditional filters</li>
+  <li><strong>IF()</strong> – Logical conditions</li>
+</ul>
+
+<h4>🔹 Example DAX Measure</h4>
+<pre>
+Total Sales = SUM(Sales[SalesAmount])
+</pre>
+
+<p>
+DAX works closely with the <strong>data model</strong> and uses <strong>filter context</strong> and
+<strong>row context</strong> to deliver accurate and dynamic results.
+</p>
+
+<hr>
+
+<h3>🚀 Why Model View & DAX Are Important</h3>
+<ul>
+  <li>Build optimized and scalable Power BI reports</li>
+  <li>Ensure accurate data relationships</li>
+  <li>Create advanced business calculations</li>
+  <li>Improve report performance</li>
+  <li>Handle complex analytical requirements</li>
+</ul>
+
+<p>
+<strong>Model View</strong> defines how data connects, while <strong>DAX</strong> defines how data is calculated.
+Together, they form the foundation of powerful Power BI dashboards.
+</p>
+
